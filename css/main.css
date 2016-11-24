@@ -1,0 +1,81 @@
+#login-form {
+  width: 50%;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 30px auto;
+  box-shadow: 10px 10px 24px 1px rgba(0,0,0,0.20);
+}
+#game_form{
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin: 30px auto;
+  box-shadow: 10px 10px 24px 1px rgba(0,0,0,0.20);
+}
+#create-btn {
+  height: 60px;
+}
+#join_btn{
+  padding-bottom: 20px;
+  height: 40px;
+}
+#join_label {
+  font-size: 16px;
+}
+#join_form{
+  height: 65px;
+}
+#avatar{
+  width: 90px;
+  height: auto;
+}
+#profile-right {
+  text-align: right;
+}
+#game-well {
+  border-radius: 15px;
+}
+#canvas {
+  width: 100%;
+  height: auto;
+  border: 3px solid #28292b;
+  border-radius: 10px;
+  background-color: #414a59;
+}
+#btn-game-trigger {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0px 20px;
+}
+#game_img {
+  max-width: 95%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+}
+@media only screen and (max-width: 900px) {
+  #homepage-content {
+    width: 100%;
+  }
+  #login-form {
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 24px 1px rgba(0,0,0,0.05);
+  }
+  #game_form{
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 24px 1px rgba(0,0,0,0.05);
+  }
+  #btn-game-trigger {
+    margin: 10px 0px;
+  }
+}
